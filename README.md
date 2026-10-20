@@ -4,10 +4,7 @@
 
 Este repositorio contiene la documentación, el código fuente y las instrucciones necesarias para la realización de la Tarea 1 de la asignatura *INF221 Algoritmos y Complejidad*.
 
-**Entrega:** archivo `.zip` vía aula.usm.cl
-
 A continuación, se describe la estructura del repositorio:
-
 ```bash
 ├── assignment_statement
 ├── code
