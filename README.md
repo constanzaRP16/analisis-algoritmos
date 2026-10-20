@@ -1,17 +1,35 @@
-# TAREA 1 INF221 2026-1
+# Análisis Experimental de Algoritmos
 
-## Estructura del Repositorio
+Proyecto académico desarrollado para la asignatura Algoritmos y Complejidad de Ingeniería Civil Informática en la Universidad Técnica Federico Santa María.
 
-Este repositorio contiene la documentación, el código fuente y las instrucciones necesarias para la realización de la Tarea 1 de la asignatura *INF221 Algoritmos y Complejidad*.
+El proyecto implementa y compara distintos algoritmos de ordenamiento y multiplicación de matrices, analizando su comportamiento experimental mediante tiempos de ejecución y distintos tamaños de entrada.
 
-A continuación, se describe la estructura del repositorio:
-```bash
-├── code
-└── README.md
-```
+## Algoritmos implementados
 
-### `code`
-Contiene la plantilla de los archivos que deberán estar presentes en la entrega de la tarea. En ella, se deben implementar los algoritmos solicitados, los cuales se detallan a continuación:
-- `matrix_multiplication`: Algoritmo de Strassen y versión Naive.
-- `sorting`: std::sort, merge sort, quick sort, patience sort.
+### Ordenamiento
+- MergeSort
+- QuickSort
+- Patience Sort
+- std::sort
 
+### Multiplicación de matrices
+- Algoritmo Naive
+- Algoritmo de Strassen
+
+## Tecnologías utilizadas
+- C++
+- Python
+- Makefile
+
+## Estructura del proyecto
+- `code/sorting/`: implementación y pruebas de algoritmos de ordenamiento.
+- `code/matrix_multiplication/`: implementación y pruebas de algoritmos de multiplicación de matrices.
+- `algorithms/`: implementaciones de los distintos algoritmos.
+- `scripts/`: generación de datos y procesamiento de resultados.
+- `data/`: datos utilizados en los experimentos.
+
+## Objetivo
+Comparar experimentalmente el rendimiento de distintos algoritmos y observar cómo varía su comportamiento según el tamaño y las características de los datos de entrada.
+
+## Contexto
+Proyecto realizado con fines académicos durante la carrera de Ingeniería Civil Informática en la UTFSM.
